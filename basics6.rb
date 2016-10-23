@@ -1,3 +1,7 @@
-puts 9.9**2
-puts 232.56**2
-puts 523.999**2
+def squares(x)
+  x**2
+end
+
+puts squares(9.543)
+puts squares(123.4445)
+puts squares(6.7)

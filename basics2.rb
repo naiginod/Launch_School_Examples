@@ -1,10 +1,11 @@
-a = 1234
-thousands = (a%10000)/1000
-hundreds = (a%1000)/100
-tens = (a%100)/10
-ones = a%10
+p a= 3456
+p thousands = a/1000
+p hundreds = (a/100)%10
+p tens = (a/10)%10
+p ones = a%10
 
-puts thousands
-puts hundreds
-puts tens
-puts ones
+p 4936 
+p thousands = 4936 / 1000
+p hundreds = 4936 % 1000 / 100
+p tens = 4936 % 1000 % 100 / 10
+p ones = 4936 % 1000 %100 % 10

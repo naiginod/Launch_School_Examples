@@ -1,8 +1,7 @@
-titles = {
-  top_gun: 1986,
-  the_matrix: 1999,
-  the_big_lebowski: 1998
+movies = {
+  "Top Gun" => 1986,
+  "The Big Lebowski" => 1998,
+  "The Matrix" => 1999
 }
-
-puts titles.collect{|x, y| y}
-
+movie_arr = movies.values.to_a
+puts movie_arr

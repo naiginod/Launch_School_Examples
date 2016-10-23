@@ -1,7 +1,6 @@
-titles = {
-  top_gun: 1986,
-  the_matrix: 1999,
-  the_big_lebowski: 1998
+movies = {
+  "Top Gun" => 1986,
+  "The Big Lebowski" => 1998,
+  "The Matrix" => 1999
 }
-
-titles.each {|x,y| puts y}
+puts movies.values
