@@ -1,0 +1,1 @@
+Exception handling gives programs the ability to continue through what would normally be an error.

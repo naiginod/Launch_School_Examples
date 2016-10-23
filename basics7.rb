@@ -1,0 +1,1 @@
+The error expresses that there is a closing bracket missing within the program.

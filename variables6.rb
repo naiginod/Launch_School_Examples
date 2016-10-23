@@ -1,0 +1,1 @@
+It says the variable shoes is being called but isn't defined correctly.
